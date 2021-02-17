@@ -1,0 +1,23 @@
+body {
+  font-family: "Reggae One", cursive;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: repeating-linear-gradient(45deg, #000, #000 3px, transparent 0, transparent 7px)
+    rgb(27, 27, 27);
+  color: ivory;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid rgb(50, 9, 9);
+  background-color: rgb(30, 30, 40);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1em;
+  line-height: 1.5em;
+  box-shadow: 5px 10px #302f2f, inset 0 0 10px #000000;
+}
+.container__content {
+  display: flex;
+  flex-wrap: wrap;
+}
